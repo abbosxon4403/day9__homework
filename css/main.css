@@ -97,6 +97,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  text-decoration: none;
 }
 
 .header__tel::before {
@@ -270,6 +271,9 @@
 }
 
 @media only screen and (max-width: 480px) {
+  .header {
+    padding: 0;
+  }
   .header__burger {
     padding-right: 166px;
   }
@@ -301,7 +305,7 @@
     line-height: 28px;
   }
   .hero__img {
-    width: 100%;
+    width: 480px;
   }
   .hero-about__text {
     max-width: 321px;
@@ -326,8 +330,8 @@
   }
   .hero-about__text {
     padding: 0;
-    max-width: 298px;
-    min-height: 400px;
+    margin: auto;
+    max-width: 320px;
     font-size: 15px;
     line-height: 21px;
   }

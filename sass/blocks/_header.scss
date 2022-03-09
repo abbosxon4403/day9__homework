@@ -37,6 +37,7 @@
     line-height: 26px;
     color: #424242;
     display: flex;
+    text-decoration: none;
     &::before {
         content: '';
         display: block;
@@ -205,6 +206,7 @@
 //maybe big phones 480px
 @media only screen and (max-width: 480px) {
     .header {
+        padding: 0;
         &__burger {
             padding-right: 166px;
         }
@@ -236,7 +238,7 @@
             line-height: 28px;
         }
         &__img {
-            width: 100%;
+            width: 480px;
         }
     }
     .hero-about {
@@ -270,8 +272,8 @@
     .hero-about {
         &__text {
             padding: 0;
-            max-width: 298px;
-            min-height: 400px;
+            margin: auto;
+            max-width: 320px;
             font-size: 15px;
             line-height: 21px;
         }
